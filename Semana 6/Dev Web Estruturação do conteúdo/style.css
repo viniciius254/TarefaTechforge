@@ -1,0 +1,54 @@
+@import url('/css/reset.css');
+@import url('/css/header.css');
+
+
+body {
+    font-family: Arial, sans-serif;
+   background-color: black;
+   color: white;
+}
+main {
+    color: white;
+    margin: 0 50px;
+    background-color: rgb(10, 10, 10);
+}
+.sinopse2 {
+    padding: 20px 0;
+}
+.caracther, .Zumbi__runner{
+    display: flex;
+}
+.Zumbi__runner {
+    padding: 20px 0;
+}
+.Zumbi__runner img {
+    height: 133px;
+    width: 85px;
+}
+.forms, .contato{
+    padding: 50px 0;
+}
+.forms label {
+   margin: auto;
+   
+}
+.forms input{
+    
+}
+.botao{
+    text-align: center;
+}
+.botao button{
+    font-family: Arial, sans-serif;
+    height: 30px;
+    border: none;
+    background-color: #00ff2a ;
+}
+.botao button:hover {
+    background-color: #002406;
+}
+footer {
+    text-align: center;
+    color: red;
+    margin: 50px;
+}
