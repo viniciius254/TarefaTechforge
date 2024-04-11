@@ -180,3 +180,12 @@ form {
         padding: 0%;
     }
 }
+@media (width >= 1400px) {
+    .video {
+        width: 100%;
+    } .video2 {
+        width: 100%;
+    } .sinopse {
+        padding-top: 5%;
+    }
+}
