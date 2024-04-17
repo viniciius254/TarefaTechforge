@@ -1,0 +1,38 @@
+header {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: fixed; 
+    box-sizing: border-box;  
+    z-index: 99;
+    box-shadow: 0px 0px 19px 0px rgba(255,0,0,0.53);
+    -webkit-box-shadow: 0px 0px 19px 0px rgba(255,0,0,0.53);
+    -moz-box-shadow: 0px 0px 19px 0px rgba(255,0,0,0.53);
+}
+header img { 
+    height: 50px;
+}
+header nav a {
+    text-decoration: none;  
+    color: white;  
+}
+header nav {
+ width: 100%;
+}
+nav {
+    width: 100%;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+header nav a:hover {
+    /* box shadow fora*/
+    box-shadow: 0px 0px 19px 0px rgba(255,0,0,0.53);
+    -webkit-box-shadow: 0px 0px 19px 0px rgba(255,0,0,0.53);
+    -moz-box-shadow: 0px 0px 19px 0px rgba(255,0,0,0.53);
+    border-radius: 6px;
+    scale: 1.10;
+    transition: 500ms;
+}
