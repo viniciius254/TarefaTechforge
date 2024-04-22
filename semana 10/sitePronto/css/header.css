@@ -1,0 +1,66 @@
+
+
+header .space {
+    display: flex;
+    justify-content: space-between;
+    z-index: 99;
+    align-items: center;
+}
+header img {
+ height: 50px;
+}
+header {
+    background-color: black;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    padding: 0 5px;
+    box-shadow: 0px 0px 19px 0px rgba(255,0,0,0.53);
+    -webkit-box-shadow: 0px 0px 19px 0px rgba(255,0,0,0.53);
+    -moz-box-shadow: 0px 0px 19px 0px rgba(255,0,0,0.53);
+}
+header nav a:hover, i#burguer:hover, nav .menu a:hover {
+    box-shadow: 0px 0px 19px 0px rgba(255,0,0,0.53);
+    -webkit-box-shadow: 0px 0px 19px 0px rgba(255,0,0,0.53);
+    -moz-box-shadow: 0px 0px 19px 0px rgba(255,0,0,0.53);
+    border-radius: 6px;
+    scale: 1.10;
+    transition: 500ms;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin: 4px;
+
+}
+i#burguer {
+    cursor: pointer;
+}
+.menu {
+    flex-direction: column;
+    display: none;
+}
+
+.mostrar {
+    display: flex;
+}
+@media (width >= 600px) {
+    header {
+        display: flex; 
+        align-items: center;
+        justify-content: space-between;
+    }
+    nav .menu {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+        gap: 50px;
+        
+    }
+
+    i#burguer {
+        display: none;
+    }
+}
